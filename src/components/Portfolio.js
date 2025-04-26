@@ -213,16 +213,17 @@ const Portfolio = () => {
             <button className="animate-btn title">
               <span>V</span>
               <span>i</span>
+              <span>v</span>
+              <span>e</span>
+              <span>k</span>
+              <span className="blank-space"> </span>
+              <span>J</span>
+              <span>a</span>
+              <span>i</span>
               <span>s</span>
-              <span>h</span>
+              <span>w</span>
               <span>a</span>
               <span>l</span>
-              <span className="blank-space"> </span>
-              <span>G</span>
-              <span>u</span>
-              <span>p</span>
-              <span>t</span>
-              <span>a</span>
             </button>
             <button className="animate-btn section__text__p2">
               <span>F</span>
