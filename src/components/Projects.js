@@ -46,13 +46,17 @@ const Projects = () => {
         <div className="btn-container">
           <button
             className="btn btn-color-2 project-btn"
-            onClick={() => (window.location.href = githubLink)}
+            onClick={() =>
+              window.open(githubLink, "_blank", "noopener,noreferrer")
+            }
           >
             Github
           </button>
           <button
             className="btn btn-color-2 project-btn"
-            onClick={() => (window.location.href = demoLink)}
+            onClick={() =>
+              window.open(demoLink, "_blank", "noopener,noreferrer")
+            }
           >
             Live Demo
           </button>
@@ -75,36 +79,36 @@ const Projects = () => {
               imgSrc="./assets/venom.jpg"
               characterSrc="./assets/ven.png"
               title="Movies Review"
-              githubLink="https://github.com/vishal-React?tab=repositories"
-              demoLink="https://github.com/"
+              githubLink="https://github.com/Vivek-Jaiswal-Web/MovieDb"
+              demoLink="https://tmdb-moviedb.netlify.app/"
             />
             <ProjectCard
               imgSrc="./assets/noodlesBack.png"
               characterSrc="./assets/noodle.png"
               title="Food Delivery"
-              githubLink="https://github.com/vishal-React?tab=repositories"
-              demoLink="https://github.com/"
+              githubLink="https://github.com/Vivek-Jaiswal-Web/Food-Delivery"
+              demoLink="https://fooddeliveryby-vivek.netlify.app/"
             />
             <ProjectCard
               imgSrc="./assets/pok.png"
               characterSrc="./assets/howerpok.png"
               title="Pokemon Cards"
-              githubLink="https://github.com/vishal-React?tab=repositories"
-              demoLink="https://github.com/"
+              githubLink="https://github.com/Vivek-Jaiswal-Web"
+              demoLink="https://github.com/Vivek-Jaiswal-Web"
             />
             <ProjectCard
               imgSrc="./assets/todo.png"
               characterSrc="./assets/topng.png"
               title="To-Do-List"
-              githubLink="https://github.com/vishal-React?tab=repositories"
-              demoLink="https://github.com/"
+              githubLink="https://github.com/Vivek-Jaiswal-Web"
+              demoLink="https://github.com/Vivek-Jaiswal-Web"
             />
             <ProjectCard
               imgSrc="./assets/we.png"
               characterSrc="./assets/clo.png"
               title="Weather"
-              githubLink="https://github.com/vishal-React?tab=repositories"
-              demoLink="https://github.com/"
+              githubLink="https://github.com/Vivek-Jaiswal-Web"
+              demoLink="https://github.com/Vivek-Jaiswal-Web"
             />
           </div>
         </div>

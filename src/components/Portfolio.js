@@ -248,7 +248,7 @@ const Portfolio = () => {
             <div className="btn-container">
               <button
                 className="btn btn-color-2"
-                onClick={() => window.open("/assets/Vishal-Gupta-Resume.pdf")}
+                onClick={() => window.open("/assets/vivek_resume.pdf")}
               >
                 Download CV
               </button>
@@ -257,10 +257,18 @@ const Portfolio = () => {
               </a>
             </div>
             <div id="socials-container">
-              <a href="https://www.linkedin.com/in/vishalGuptaReact/">
+              <a
+                href="https://www.linkedin.com/in/vivek-jaiswal-219953221"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 <PiLinkedinLogoFill className="change" />
               </a>
-              <a href="https://github.com/vishal-React">
+              <a
+                href="https://github.com/Vivek-Jaiswal-Web"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 <FaGithub className="change" />
               </a>
             </div>
