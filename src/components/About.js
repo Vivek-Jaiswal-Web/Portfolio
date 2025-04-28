@@ -32,7 +32,7 @@ const About = () => {
             <div className="section__pic-container animate">
               <img
                 src="./assets/person stand.png"
-                alt="A person standing illustration for About Me section"
+                alt=""
                 className="about-pic"
               />
             </div>
