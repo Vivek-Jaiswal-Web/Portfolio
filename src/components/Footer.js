@@ -20,7 +20,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <p>Copyright © 2024 Vishal Gupta. All Rights Reserved.</p>
+        <p>Copyright © 2025 Vivek Jaiswal. All Rights Reserved.</p>
       </footer>
     </>
   );
