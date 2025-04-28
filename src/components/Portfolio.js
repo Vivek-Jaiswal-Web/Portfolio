@@ -186,7 +186,7 @@ const Portfolio = () => {
             </div>
             <img
               src="./assets/main.png"
-              alt="animated profile picture"
+              alt="Illustrated profile image of Vivek Jaiswal"
               className="image"
             />
             <FaReact className="con" />
