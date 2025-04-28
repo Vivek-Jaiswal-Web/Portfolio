@@ -248,7 +248,7 @@ const Portfolio = () => {
             <div className="btn-container">
               <button
                 className="btn btn-color-2"
-                onClick={() => window.open("/assets/vivek_resume.pdf")}
+                onClick={() => window.open("/assets/Vivek resume.pdf")}
               >
                 Download CV
               </button>
